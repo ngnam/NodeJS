@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<!-- jQuery -->
+	<script src="http://code.jquery.com/jquery.js"></script>
+
+</head>
+<body>
+
+<div class="iframe">
+	<iframe id="my_iframe" src="http://www.nodebeginner.org/index-vi.html" frameborder="0" width="100%" height="500">				
+	</iframe>
+
+<script type="text/javascript">
+/**
+function remove_elemment() {
+    var body = document.getElementById('body');
+	var divs = body.getElementsByTagName("div");
+	var div;
+	for (i = 0; i < divs.length; i++){
+	  div = divs[i];
+	  if(div.class=='buybox'){
+	  	**div.style.display = "none";**
+	  }
+	}
+};
+
+function doRemove() {
+    document.frame.document.getElementById('my_iframe').remove_elemment();
+}();
+**/
+
+//$('iframe').contents().find("div[class='buybox']").remove();
+
+setTimeout($(function (){
+
+	//$(".buybox").remove();
+	//$('iframe').contents().find("div.buybox").remove(); 
+	$('iframe').contents().find("div[class='buybox']").remove();
+}), 2000);
+
+</script>
+
+</div>
+	
+</body>
+</html>

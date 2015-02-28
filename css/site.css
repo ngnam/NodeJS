@@ -1,0 +1,29 @@
+body {
+	margin: 30px;
+}
+
+.pmargin {
+	margin: 0 10px 10px 0px;
+}
+#content-wrapper {
+	position: relative; 
+}
+
+.navbar-customer {
+	background-color: rgba(77, 23, 23, 0.9);
+	border-color: rgba(77, 23, 23, 0.9);
+}
+
+.navbar-customer-color {
+	color: rgba(248, 148, 148, 0.9) !important;; 
+}
+
+.navbar-customer-color:hover {
+	color: rgba(255, 0, 0, 1) !important;; 
+}
+
+/**.content-wrapper:after { display: block; clear: both; height: 0.01px; content: ""; }
+
+.floating-widget { margin: 1px 0;}
+.floating-widget.floating { position: fixed; top: 0; }
+floating-widget.pinned-bottom { position: absolute; bottom: 0;  _position: static; }**/
